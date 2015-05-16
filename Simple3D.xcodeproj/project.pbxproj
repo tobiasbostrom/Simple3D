@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60A79011B069E2500433F94 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F60A78FF1B069E2500433F94 /* Vector2D.cpp */; };
 		F6189C811B06951C000A1DE3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6189C801B06951C000A1DE3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F60A78FF1B069E2500433F94 /* Vector2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2D.cpp; sourceTree = "<group>"; };
+		F60A79001B069E2500433F94 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
 		F6189C7D1B06951C000A1DE3 /* Simple3D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simple3D; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6189C801B06951C000A1DE3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F6189C801B06951C000A1DE3 /* main.cpp */,
+				F60A78FF1B069E2500433F94 /* Vector2D.cpp */,
+				F60A79001B069E2500433F94 /* Vector2D.h */,
 			);
 			path = Simple3D;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60A79011B069E2500433F94 /* Vector2D.cpp in Sources */,
 				F6189C811B06951C000A1DE3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +241,7 @@
 				F6189C861B06951C000A1DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

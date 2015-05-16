@@ -7,10 +7,13 @@
 //
 
 #include <iostream>
-
+#include <vector>
+#include "Vector2D.h"
+using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
-    std::cout << "First commit from inside xcode\n";
+    Vector2D vect (2, 4);
+    cout << "Hello, World!\n";
+    cout << vect;
     return 0;
 }
