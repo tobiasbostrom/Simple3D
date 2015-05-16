@@ -16,6 +16,6 @@ class Vector2D {
     public:
         Vector2D(int x, int y);
         void set_values(int x, int y);
-        Vector2D& operator+(const Vector2D& other);
-        Vector2D& operator-(const Vector2D& other);
+        Vector2D operator+(const Vector2D& other);
+        Vector2D operator-(const Vector2D& other);
 };

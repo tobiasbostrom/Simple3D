@@ -23,16 +23,10 @@ std::ostream& operator<<(std::ostream& out, const Vector2D& vector) {
     return out << "(" << vector.x << ", " << vector.y << ")";
 }
 
-//Does not work correctly yet.
-Vector2D& Vector2D::operator+(const Vector2D& vector) {
-    this->x += vector.x;
-    this->y += vector.y;
-    return *this;
+Vector2D Vector2D::operator+(const Vector2D& vector) {
+    return Vector2D (x+vector.x, y+vector.y);
 }
 
-//Does not work correctly yet.
-Vector2D& Vector2D::operator-(const Vector2D& vector) {
-    this->x -= vector.x;
-    this->y -= vector.y;
-    return *this;
+Vector2D Vector2D::operator-(const Vector2D& vector) {
+    return Vector2D (x-vector.x, y-vector.y);
 }
