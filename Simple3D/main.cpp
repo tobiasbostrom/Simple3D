@@ -12,8 +12,10 @@
 using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
-    Vector2D vect (2, 4);
+    Vector2D vect1 (2, 4);
+    Vector2D vect2 (1, 3);
     cout << "Hello, World!\n";
-    cout << vect;
+    cout << vect1 + vect2;
+    cout << vect1 - vect2;
     return 0;
 }
