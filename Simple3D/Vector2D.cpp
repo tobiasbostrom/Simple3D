@@ -21,6 +21,7 @@ void Vector2D::set_values(int x, int y) {
 
 std::ostream& operator<<(std::ostream& out, const Vector2D& vector) {
     return out << "(" << vector.x << ", " << vector.y << ")";
+    
 }
 
 Vector2D Vector2D::operator+(const Vector2D& vector) {
